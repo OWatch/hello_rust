@@ -3,15 +3,15 @@ fn main() {
     hello_penguin();
 }
 
-fn greet_world() {
-    let southern_germany = "Grüß Gott!";
-    let chinese = "世界，你好！";
-    let english = "hello, world!";
-    let regions = [southern_germany, chinese, english];
-    for region in regions {
-        println!("{}", &region)
-    } 
-}
+// fn greet_world() {
+//     let southern_germany = "Grüß Gott!";
+//     let chinese = "世界，你好！";
+//     let english = "hello, world!";
+//     let regions = [southern_germany, chinese, english];
+//     for region in regions {
+//         println!("{}", &region)
+//     } 
+// }
 
 fn hello_penguin() {
     let penguin_data = "\
@@ -44,3 +44,5 @@ fn hello_penguin() {
         }
     }
 }
+
+
